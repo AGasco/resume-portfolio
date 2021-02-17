@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 900px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4), -2px -2px 5px rgba(0, 0, 0, 0.4);
+  background-image: url("imgs/background.jpg");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+.top {
+  flex: 0.2;
+}
+
+.bottom {
+  flex: 1;
+}
+
+.left {
+  flex: 0.8;
+}
+
+.right {
+  flex: 1.2;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  /* background-image: none !important;
+    background-color: white; */
+}
+
+.top > img {
+  border-radius: 100%;
+  height: 80%;
+}
+
+.top > .nameContainer {
+  font-family: "Francois One", sans-serif;
+  align-self: flex-start;
+  padding-top: 20px;
+  color: #505448;
+}
+
+.nameContainer > h1 {
+  font-size: 3rem;
+  line-height: 2rem;
+  margin-left: 15px;
+  white-space: nowrap;
+}
+
+.nameContainer > h4 {
+  font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
+  text-align: right;
+  padding-right: 20px;
+  color: #5c6076;
+}
+
+.portfolioTitle {
+  font-family: "Francois One", sans-serif;
+  font-size: 5rem;
+  color: #505448;
+}
+
+.contact {
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  color: #505448;
+  margin-bottom: 40px;
+}
+
+.contact > * {
+  margin-bottom: 5px;
+}
+
+.contact > .fas::before,
+.contact > .fab::before {
+  padding-right: 10px;
+}
+
+.contact span,
+.contact a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  color: #5c6076;
+  text-decoration: none;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: none !important;
+  background-color: white;
+}
+
+.projectsContainer {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 50%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.project > img {
+  flex: 1;
+  max-width: 60%;
+}
