@@ -155,3 +155,10 @@ body {
   text-align: justify;
   font-family: "Quicksand", sans-serif;
 }
+
+.footNote {
+  position: absolute;
+  bottom: 5px;
+  color: #aaa;
+  font-family: "Quicksand", sans-serif;
+}
