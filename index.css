@@ -150,6 +150,11 @@ body {
   font-family: "Francois One", sans-serif;
 }
 
+.projectTitle > a {
+  text-decoration: none;
+  color: #5c6076;
+}
+
 .projectDescription {
   margin: 0;
   text-align: justify;
