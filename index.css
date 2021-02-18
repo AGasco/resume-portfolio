@@ -123,13 +123,35 @@ body {
 }
 
 .project {
-  width: 50%;
+  width: 45%;
   max-width: 700px;
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 
 .project > img {
   flex: 1;
   max-width: 60%;
+  padding-right: 10px;
+}
+
+.projectText {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.projectTitle {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #5c6076;
+  font-family: "Francois One", sans-serif;
+}
+
+.projectDescription {
+  margin: 0;
+  text-align: justify;
+  font-family: "Quicksand", sans-serif;
 }
